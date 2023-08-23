@@ -3,7 +3,7 @@ package Model.Filters;
 /**
  * Фильтр. описыват поля, которые могут быть использованы для формирования отчета
  */
-public class ReportFilter {
+public class ReportFilterMask {
     boolean group;
     boolean produser;
     boolean prodact;
@@ -11,7 +11,7 @@ public class ReportFilter {
     boolean startPeriod;
     boolean stopPeriod;
 
-    public ReportFilter(boolean group, boolean produser, boolean prodact, boolean customer, boolean startPeriod, boolean stopPeriod) {
+    public ReportFilterMask(boolean group, boolean produser, boolean prodact, boolean customer, boolean startPeriod, boolean stopPeriod) {
         this.group = group;
         this.produser = produser;
         this.prodact = prodact;

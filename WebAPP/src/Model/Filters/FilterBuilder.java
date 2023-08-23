@@ -42,8 +42,8 @@ public class FilterBuilder {
         return this;
     }
 
-    ReportFilter create(){
-        return new ReportFilter(group,produser,prodact,customer,startPeriod,stopPeriod);
+    ReportFilterMask create(){
+        return new ReportFilterMask(group,produser,prodact,customer,startPeriod,stopPeriod);
     }
 
 }

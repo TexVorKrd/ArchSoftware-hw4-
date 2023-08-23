@@ -1,5 +1,8 @@
 package Model.Items;
 
+/**
+ * Товар
+ */
 public class Prodact {
     private int id;
     private String name;
