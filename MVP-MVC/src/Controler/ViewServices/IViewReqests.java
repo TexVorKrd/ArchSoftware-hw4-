@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface IViewReqests {
 
-    void askFreeTables(Date date, Room room);
-    void askRooms(Room room);
-    void confirmBooking(Order order);
+    void askFreeTables(String jsonREquest);
+    void askRooms(String jsonREquest);
+    void confirmBooking(String jsonREquest);
 }

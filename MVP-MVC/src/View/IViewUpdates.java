@@ -1,8 +1,8 @@
 package View;
 
 public interface IViewUpdates {
-    void updateRommsInfo(String datamodel);
-    void updateTablesInfo(String datamodel);
-    void updateOrderInfo(String datamodel);
+    void updateRommsInfo(String djsonRequest);
+    void updateTablesInfo(String djsonRequest);
+    void updateOrderInfo(String djsonRequest);
 
 }

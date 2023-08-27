@@ -38,4 +38,10 @@ public abstract class Repository implements iRepository {
     public List<Order> getOrders(Filter filter) {
         return orders;
     }
+    public boolean  addOrder(Order order){
+        boolean allIsOk=false;
+        if (allIsOk)    orders.add(order);
+        return allIsOk;
+    };
+
 }
