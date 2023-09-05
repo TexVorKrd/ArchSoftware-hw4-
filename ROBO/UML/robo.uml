@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Controler.IServices</OriginalElement>
+  <nodes>
+    <node x="-160.31250000000006" y="-239.25">Controler.Controler</node>
+    <node x="403.75" y="9.25">Model.User</node>
+    <node x="-488.75000000000006" y="-471.25">View.IView</node>
+    <node x="-160.31250000000006" y="-471.25">Controler.IServices</node>
+    <node x="403.75" y="-189.625">Model.Token</node>
+    <node x="-481.25000000000006" y="-239.25">View.View</node>
+    <node x="139.12499999999994" y="-239.25">Repository.Repo</node>
+    <node x="139.12499999999994" y="-471.25">Repository.IRepo</node>
+    <node x="-160.31250000000006" y="-23.5">Services.Maper</node>
+    <node x="403.75" y="-477.5">Model.Robo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Controler.Controler" target="Controler.IServices" relationship="REALIZATION">
+      <point x="0.0" y="-82.5" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="View.View" target="Controler.Controler" relationship="TO_ONE">
+      <point x="113.0" y="18.0" />
+      <point x="-98.5" y="0.0" />
+    </edge>
+    <edge source="Controler.Controler" target="View.View" relationship="TO_ONE">
+      <point x="-98.5" y="-18.0" />
+      <point x="113.0" y="0.0" />
+    </edge>
+    <edge source="Repository.Repo" target="Repository.IRepo" relationship="REALIZATION">
+      <point x="0.0" y="-82.5" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="Controler.Controler" target="Repository.Repo" relationship="TO_ONE">
+      <point x="98.5" y="0.0" />
+      <point x="-99.0" y="0.0" />
+    </edge>
+    <edge source="Model.Token" target="Model.Robo" relationship="TO_ONE">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="Controler.Controler" target="Services.Maper" relationship="TO_ONE">
+      <point x="-3.5" y="82.5" />
+      <point x="0.0" y="-60.0" />
+    </edge>
+    <edge source="View.View" target="View.IView" relationship="REALIZATION">
+      <point x="-7.5" y="-64.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Repository.Repo" target="Model.User" relationship="TO_MANY">
+      <point x="-15.0" y="82.5" />
+      <point x="223.12499999999994" y="66.25" />
+      <point x="-94.0" y="0.0" />
+    </edge>
+    <edge source="Repository.Repo" target="Model.Robo" relationship="TO_MANY">
+      <point x="99.0" y="-50.375" />
+      <point x="482.75" y="-207.125" />
+      <point x="-15.0" y="116.0" />
+    </edge>
+    <edge source="Repository.Repo" target="Model.Token" relationship="TO_MANY">
+      <point x="99.0" y="38.625" />
+      <point x="-94.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8" showDependencies="true" x="132.25" y="33.5" />
+  <SelectedNodes>
+    <node>View.View</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
